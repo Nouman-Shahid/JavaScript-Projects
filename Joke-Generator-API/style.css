@@ -1,0 +1,53 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(201, 201, 31);
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    width: 40%;
+    padding: 5vh;
+    height: 50%;
+    border-radius: 4vh;
+}
+
+img {
+    height: 15vh;
+}
+
+p {
+    text-align: center;
+    font-size: 20v;
+    height: 20vh;
+}
+
+button {
+
+    padding: 1.5vh 4vh;
+    border-radius: 4vh;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(29, 130, 177);
+    transition: 0.3S ease;
+
+}
+button:hover {
+
+    background-color: rgb(10, 117, 167);
+    cursor: pointer;
+}

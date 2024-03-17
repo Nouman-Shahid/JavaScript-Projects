@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/logo.png" >
+</head>
+
+<body>
+
+    <div class="left-div">
+
+        <div class="search">
+            <input type="text" placeholder="Search for location" id="cityInput">
+            <button style="font-size:15px" id="btn"><i class="fa fa-search"></i></button>
+
+        </div>
+
+        <img src="images/Clear.svg" id="image">
+        
+        <div class="info">
+
+            <h3 id="temp" style="color: rgb(94, 90, 90);">19</h3>
+            <h6 id="city" style="color: rgb(44, 2, 161);">Lahore,Pakistan</h6>
+        </div>
+        <div class="info">
+            <p id="desc" style="color: rgb(44, 41, 41); font-size: 2.2vh;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quibusdam!</p>
+        </div>
+        <div class="info">
+
+            <h5 style="color: rgb(94, 90, 90);">condition</h5>
+            <h5 id="condition" style="color: rgb(5, 20, 158);">Partly Cloudy</h5>
+        </div>
+        <div class="info">
+            <div>
+               <h5 style="color: rgb(94, 90, 90);">sunset</h5>
+                <h5 style="color: rgb(94, 90, 90);">sunrise</h5>
+            </div>
+            <div>
+                <h5 id="sunset">16:23:00</h5>
+                <h5 id="sunrise">16:23:00</h5>
+            </div>
+         
+        </div>
+        <div class="info">
+
+            <h6 style="color: rgb(94, 90, 90);">last updated at</h6>
+            <h5 id="time" style="color: rgb(182, 39, 39);">19:22:00</h5>
+        </div>
+        
+
+    </div>
+
+    <div class="right-div">
+
+        <div id="right-info">
+            <div id="temperature">
+                <h3>7 Day Forecast</h3>
+                <div>
+                    <button id="c">Celsius </button>
+                    <button id="f">Fahrenheit </button>
+                </div>
+            </div>
+
+
+            <div class="week">
+
+
+            </div>
+        </div>
+
+        <div id="right-info">
+            <div id="temperature">
+                <h3>Today's Highlights</h3>
+            </div>
+            <div class="week">
+
+                <div class="update">
+                    <p style="color: rgb(143, 139, 136);">UV Index</p>
+                    <div class="highlight">
+                        <img src="images/uv.png" style="height: 5vh;">
+                        <p id="uv">15 °C</p>
+                    </div>
+                </div>
+                <div class="update">
+                    <p style="color: rgb(143, 139, 136);">Humidity</p>
+                    <div class="highlight">
+                        <img src="images/humidity.png" style="height: 5vh;">
+                        <p id="humidity">15 °C</p>
+                    </div>
+                </div>
+                <div class="update">
+                    <p style="color: rgb(143, 139, 136);">Visibility</p>
+                    <div class="highlight">
+                        <img src="images/visible.png" style="height: 5vh;">
+                        <p id="visible">15 °C</p>
+                    </div>
+                </div>
+                <div class="update">
+                    <p style="color: rgb(143, 139, 136);">Wind Status</p>
+                    <div class="highlight">
+                        <img src="images/wind.png" style="height: 5vh;">
+                        <p id="wind">15 °C</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
